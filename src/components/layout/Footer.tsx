@@ -15,7 +15,7 @@ const footerLinks = {
     { name: "Actualités", href: "/news" },
   ],
   legal: [
-    { name: "À propos", href: "/about" },
+    { name: "À propos", href: "/a-propos" },
     { name: "Politique de confidentialité", href: "/privacy" },
     { name: "Mentions légales", href: "/legal" },
     { name: "Contact", href: "/contact" },
@@ -39,24 +39,18 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/fjg67/Cybersecurity-website"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="GitHub"
               >
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="mailto:contact@secureweb.example"
                 className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a
-                href="/contact"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="Email"
               >
                 <Mail className="h-5 w-5" />
               </a>

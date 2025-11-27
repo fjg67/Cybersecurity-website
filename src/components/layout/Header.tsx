@@ -10,7 +10,7 @@ const navigation = [
   { name: "Outils", href: "/outils" },
   { name: "Guides", href: "/guides" },
   { name: "VPN", href: "/vpn" },
-  { name: "À propos", href: "/about" },
+  { name: "À propos", href: "/a-propos" },
 ];
 
 export default function Header() {

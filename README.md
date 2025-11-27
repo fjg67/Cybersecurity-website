@@ -193,6 +193,7 @@ Une fois le serveur lancé, vous pouvez accéder à :
 - **Générateur d'eCard** : http://localhost:3000/outils/ecard
 - **Comparateur VPN** : http://localhost:3000/vpn
 - **Centre de ressources** : http://localhost:3000/guides
+- **À propos** : http://localhost:3000/a-propos
 - **Articles** :
   - http://localhost:3000/guides/comment-choisir-vpn-2025
   - http://localhost:3000/guides/10-erreurs-mots-de-passe
