@@ -186,6 +186,7 @@ Tous les composants UI sont créés avec Tailwind CSS et supportent les variants
 
 Une fois le serveur lancé, vous pouvez accéder à :
 
+### Pages principales
 - **Accueil** : http://localhost:3000
 - **Tous les outils** : http://localhost:3000/outils
 - **Générateur de mots de passe** : http://localhost:3000/outils/password
@@ -193,11 +194,19 @@ Une fois le serveur lancé, vous pouvez accéder à :
 - **Générateur d'eCard** : http://localhost:3000/outils/ecard
 - **Comparateur VPN** : http://localhost:3000/vpn
 - **Centre de ressources** : http://localhost:3000/guides
+
+### Pages informatives
 - **À propos** : http://localhost:3000/a-propos
-- **Articles** :
-  - http://localhost:3000/guides/comment-choisir-vpn-2025
-  - http://localhost:3000/guides/10-erreurs-mots-de-passe
-  - http://localhost:3000/guides/phishing-reconnaitre-arnaque
+- **Glossaire** : http://localhost:3000/glossaire
+- **Actualités** : http://localhost:3000/news
+- **Contact** : http://localhost:3000/contact
+- **Politique de confidentialité** : http://localhost:3000/privacy
+- **Mentions légales** : http://localhost:3000/legal
+
+### Articles
+- http://localhost:3000/guides/comment-choisir-vpn-2025
+- http://localhost:3000/guides/10-erreurs-mots-de-passe
+- http://localhost:3000/guides/phishing-reconnaitre-arnaque
 
 ## 🤝 Contribution
 
