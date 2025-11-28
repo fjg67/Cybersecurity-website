@@ -295,7 +295,12 @@ export default function VPNComparator() {
                 </div>
               </div>
 
-              <Button variant="primary" className="w-full" size="lg">
+              <Button
+                variant="primary"
+                className="w-full"
+                size="lg"
+                onClick={() => window.open(vpn.url, '_blank', 'noopener,noreferrer')}
+              >
                 En savoir plus sur {vpn.name}
               </Button>
             </CardContent>

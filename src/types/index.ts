@@ -54,6 +54,7 @@ export interface VPN {
   pros: string[];
   cons: string[];
   platforms: ("windows" | "macos" | "ios" | "android" | "linux")[];
+  url: string;
   affiliate?: string;
 }
 

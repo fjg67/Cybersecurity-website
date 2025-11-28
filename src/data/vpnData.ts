@@ -30,6 +30,7 @@ export const vpnList: VPN[] = [
       "Basé au Panama (juridiction acceptable mais pas idéale)",
     ],
     platforms: ["windows", "macos", "ios", "android", "linux"],
+    url: "https://nordvpn.com",
   },
   {
     id: "protonvpn",
@@ -60,6 +61,7 @@ export const vpnList: VPN[] = [
       "Vitesses légèrement inférieures sur longue distance",
     ],
     platforms: ["windows", "macos", "ios", "android", "linux"],
+    url: "https://protonvpn.com",
   },
   {
     id: "mullvad",
@@ -91,6 +93,7 @@ export const vpnList: VPN[] = [
       "Interface minimaliste (peut être un pro pour certains)",
     ],
     platforms: ["windows", "macos", "ios", "android", "linux"],
+    url: "https://mullvad.net",
   },
   {
     id: "surfshark",
@@ -121,6 +124,7 @@ export const vpnList: VPN[] = [
       "Vitesses variables selon les serveurs",
     ],
     platforms: ["windows", "macos", "ios", "android", "linux"],
+    url: "https://surfshark.com",
   },
   {
     id: "expressvpn",
@@ -152,6 +156,7 @@ export const vpnList: VPN[] = [
       "Pas de version gratuite",
     ],
     platforms: ["windows", "macos", "ios", "android", "linux"],
+    url: "https://expressvpn.com",
   },
   {
     id: "vyprvpn",
@@ -181,6 +186,7 @@ export const vpnList: VPN[] = [
       "Moins connu que les leaders du marché",
     ],
     platforms: ["windows", "macos", "ios", "android", "linux"],
+    url: "https://vyprvpn.com",
   },
 ];
 
